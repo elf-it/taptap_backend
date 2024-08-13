@@ -1,0 +1,156 @@
+page_name,text_name,ru_lang,en_lang
+stats,get_begin,Базовый ,Base
+stats,get_silver,Сильвер,Silver
+stats,get_gold,Голд,Gold
+stats,get_platinum,Платина,Platinum
+stats,get_black,Блек,Black
+stats,get_ultima,Ультима,Ultima
+main,check_unlimit,Безлимит,Unlimit
+main,check_autofarm,Авто Фарм,Auto Farm
+main,check_boost,Буст,Boost
+main,button_tasks,Задания,Tasks
+main,button_wallet,Кошелек,Wallet
+main,button_farm,Ферма,Farm
+dashboard,text_ticket,билет,ticket
+dashboard,text_meme_coins,Meme coins,Meme coins
+dashboard,text_friends,Приглашенные друзья,Invited friends
+dashboard,text_get_bonus,Получить бонус,Get a bonus
+dashboard,text_invite_friend,Пригласить друга,Invite a friend
+autofarm,title_unlimit,Режим безлимит,Unlimited mode
+autofarm,description_unlimit,"Покупай безлимит, получай увеличенное базовое колличество монет","Buy unlimited, get an increased base number of coins"
+autofarm,button_unlimit,Купить,Buy
+autofarm,info_unlimit,Плата взимается однократно.,The fee is charged once.
+autofarm,title_autofarm,Функция авто-клик,Auto-click function
+autofarm,description_autofarm,Включается после покупки в ближайший временной интервал и система автоматически кликает за пользователя,It turns on after the purchase in the next time interval and the system automatically clicks for the user
+autofarm,tarif_time1_autofarm,6 часов,6 hours
+autofarm,tarif_time2_autofarm,12 часов,12 hours
+autofarm,tarif_time3_autofarm,18 часов,18 hours
+autofarm,tarif_time4_autofarm,24 часа,24 hours
+autofarm,button_autofarm,Купить,Buy
+autofarm,info_autofarm,Плата взимается однократно,The fee is charged once
+autofarm,title_lottery,Покупка билетов розырыша,Purchasing raffle tickets
+autofarm,description_lottery,, 
+autofarm,button_lottery,Купить,Buy
+autofarm,info_lottery,"Купить можно неограниченное количество раз, тикеты начисляются за 1 покупку","You can buy an unlimited number of times, tickets are awarded for 1 purchase"
+autofarm,title_status,Покупка статуса,Status Purchase
+autofarm,description_status,Включается после покупки в ближайший временной интервал.,Turns on after purchase in the next time interval.
+autofarm,button_status,Повысить статус,Upgrade your status
+autofarm,title_boost,Покупка Бустов,Buy Boosts
+autofarm,description_boost,"Покупай буст, получай увеличенное колличество монет","Buy a boost, get an increased number of coins"
+autofarm,tarifs_time1_boost,+50,+50
+autofarm,tarifs_time2_boost,+100,+100
+autofarm,tarifs_time3_boost,+150,+150
+autofarm,tarifs_time4_boost,+200,+200
+autofarm,tarifs_time5_boost,+250,+250
+autofarm,button_boost,Купить,Buy
+autofarm,info_boost,Буст действует 30 дней с момента покупки,The boost is valid for 30 days from the date of purchase
+autofarm,modal_price,Цена,Price
+autofarm,text_popup,Ожидайте начисления!,Ожидайте начисления!
+autofarm,modal_button,Купить,Buy
+lottery,title_card,Покупка билетов лотереи,Buy lottery tickets
+lottery,description_card,,
+lottery,tarif1,1 билет,1 ticket
+lottery,tarif2,12 билет,12 tickets
+lottery,tarif3,30 билетов,30 tickets
+lottery,tarif4,70 билетов,70 tickets
+lottery,tarif5,200 билетов,200 tickets
+lottery,button_card,Купить,Buy
+lottery,info_card,Покупка билетов розырыша,Purchasing raffle tickets
+lottery,present1,100.000 TON,100.000 TON
+lottery,present2,200.000 TON,200.000 TON
+lottery,present3,300.000 TON,300.000 TON
+lottery,present4,400.000 TON,400.000 TON
+lottery,present5,1.000.000 TON,1.000.000 TON
+lottery,ticket,билет,ticket
+lottery,one_ticket,1 билет,1 ticket
+lottery,one_ton,1 TON,1 TON
+lottery,buy_button,Купить билет,Buy a ticket
+lottery,title,"Чем выше статус, тем дороже подарок!","The higher the status, the more expensive the gift!"
+lottery,description,"Розыгрыш происход при достижении 1000000 купленных билетов, режимов авто клик, режимов безлимит.","The draw takes place when 1,000,000 purchased tickets are reached, modes"
+lottery,status_button,Повысить статус,Upgrade your status
+wallet,title,Кошелек,Wallet
+wallet,description_noconnect,Подключите свой кошелек для совершения покупок и получения вознаграждений,Connect your wallet to make purchases and receive rewards
+wallet,button_connect,Подключить свой кошелек,Connect your wallet
+wallet,bonuses,Реферальных бонусов,Referral Bonuses
+wallet,bonuse_button,Получить бонус,Get a bonus
+languages,title,Смена языка,Changing the language
+languages,choice,Выбери язык приложения,Choose the language of the application
+languages,suggested,Предлагаемые языки,Suggested Languages
+languages,other,Другие языки,Other Languages
+menu,main,Главная,Main
+menu,dashboard,Дашборд,Dashboard
+menu,autofarm,Авто фарм,Auto Farm
+menu,lottery,Розыгрыш,Raffle
+menu,games,Игры,Games
+guid,fs_hello,Привет!,Hello!
+guid,ingame_button,В игру,In game
+guid,next_button,Далее,Next
+guid,name,Это Mamotik,This is Mamotik
+guid,description_page1,Жми на Mamotik и получай мем-токены,Click on Mamotik and get meme tokens
+guid,description_page2_1,Получай бесплатно,Get it for free
+guid,description_page2_2,токены,tokens
+guid,description_page2_3,с повышением статуса количество их увеличивается,with increasing status their number increases
+guid,time1_page3,6 часов,6 hours
+guid,time2_page3,12 часов,12 hours
+guid,time3_page3,18 часов,18 hours
+guid,time4_page3,24 часов,24 hours
+guid,description1_page3,Автоклик,Autoclick
+guid,description2_page3,Активируй бота и он будет тапать токены вместо тебя,Activate the bot and it will tap tokens for you
+guid,description3_page3,"Плата взимается однократно, базовая сумма токенов X2","The fee is charged once, the base amount of tokens is X2"
+guid,time1_page4,X5,X5
+guid,time2_page4,X6,X6
+guid,time3_page4,X7,X7
+guid,time4_page4,X8,X8
+guid,time5_page4,X10,X10
+guid,description1_page4,Режим безлимит,Unlimited mode
+guid,description2_page4,"Неограниченный фарминг токенов, умножение базовой суммы токенов","Unlimited token farming, multiplying the base amount of tokens"
+guid,description3_page4,Плата взимается однократно.,The fee is charged once
+guid,time1_page5,Сильвер,Silver
+guid,time2_page5,Голд,Gold
+guid,time3_page5,Платина,Platinum
+guid,time4_page5,Блек,Black
+guid,time5_page5,Ультима,Ultima
+guid,description1_page5,3 приглашения или 1 TON или 10 дней игры подряд,3 invitations or 1 TON or 10 days of playing in a row
+guid,description2_page5,6 приглашений или 2 TON или 20 дней игры подряд,6 invitations or 2 TON or 20 days of playing in a row
+guid,description3_page5,12 приглашений или 3 TON или 30 дней игры подряд,12 invitations or 3 TON or 30 days of playing in a row
+guid,description4_page5,24 приглашения или 4 TON или 45 дней игры подряд,24 invitations or 4 TON or 45 days of playing in a row
+guid,description5_page5,100 приглашений или 5 TON или 90 дней игры подряд,100 invitations or 5 TON or 90 days of playing in a row
+guid,description6_page5,Обязательное условие наличие статуса и покупки,Обязательное условие наличие статуса и покупки
+guid,title_page5,Статусы,Statuses
+guid,time1_page6,Сильвер,Silver
+guid,time2_page6,Голд,Gold
+guid,time3_page6,Платина,Platinum
+guid,time4_page6,Блек,Black
+guid,time5_page6,Ультима,Ultima
+guid,count1_page6,Розыгрыш 100.000 TON,Raffle 100.000 TON
+guid,count2_page6,Розыгрыш 200.000 TON,Raffle 200.000 TON
+guid,count3_page6,Розыгрыш 300.000 TON,Raffle 300.000 TON
+guid,count4_page6,Розыгрыш 400.000 TON,Raffle 400.000 TON
+guid,count5_page6,Розыгрыш 1.000.000 TON,Raffle 1.000.000 TON
+guid,descriptoin1_page6,1000 победителей получают по 100 TON,1000 winners receive 100 TON each
+guid,descriptoin2_page6,1000 победителей получают по  200 TON ,1000 winners receive 200 TON each
+guid,descriptoin3_page6,1000 победителей получают по  300 TON ,1000 winners receive 300 TON each
+guid,descriptoin4_page6,1000 победителей получают по  400 TON ,1000 winners receive 400 TON each
+guid,descriptoin5_page6,1000 победителей получают по  1000 TON ,1000 winners receive 1000 TON each
+guid,price1_page6,100k,100k
+guid,price2_page6,200k,200k
+guid,price3_page6,300k,300k
+guid,price4_page6,400k,400k
+guid,price5_page6,1000k,1000k
+guid,title1_page6,Розыгрыш,Raffle
+guid,title2_page6,Каждый статус дает возможность участвовать в розыгрышах:,Each status gives you the opportunity to participate in sweepstakes:
+guid,title1_page7,Буст,Boost
+guid,title2_page7,"Покупай буст, получай увеличенное колличество монет","Buy a boost, get an increased number of coins"
+autofarm,tickets1_lottery,1 билет,1 ticket
+autofarm,tickets2_lottery,12 билетов,12 tickets
+autofarm,tickets3_lottery,30 билетов,30 tickets
+autofarm,tickets4_lottery,70 билетов,70 tickets
+autofarm,tickets5_lottery,20 билетов,20 tickets
+popup,autofarm_title,Биржа начала работать на вас,Биржа начала работать на вас
+popup,autofarm_button,Спасибо!,Спасибо!
+popup,autofarm_timer_title,До включения Автофарма:,До включения Автофарма:
+popup,autofarm_timer_button,Хорошо!,Хорошо!
+popup,boost_timer_title,До включения Буста:,До включения Буста:
+popup,boost_timer_button,Хорошо!,Хорошо!
+popup,unlimit_timer_title,До включения Безлимита:,До включения Безлимита:
+popup,unlimit_timer_button,Хорошо!,Хорошо!

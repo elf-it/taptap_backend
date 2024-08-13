@@ -62,7 +62,16 @@ class Connection:
                 print("Ошибка update PostgreSQL", error)
         else:
             print("Не совпадает количество ключей и данных")
-            
+
+    def updateFromStr(self, s: str):
+        try:
+            cursor = self.connection.cursor()
+            cursor.execute(s)
+            self.connection.commit()
+            cursor.close()
+        except (Exception, Error) as error:
+            print("Ошибка update PostgreSQL", error)
+
     def delete(self, table: str, id: int):
         try:
             cursor = self.connection.cursor()
@@ -78,6 +87,20 @@ class Connection:
             cursor = self.connection.cursor()
             if where_key != "":
                 cursor.execute("SELECT {3} FROM {0} WHERE {1} = '{2}';".format(table, where_key, where_value, ", ".join(map(str, key))))
+                return cursor.fetchall()
+            else:
+                cursor.execute("SELECT {1} FROM {0};".format(table, ", ".join(map(str, key))))
+                return cursor.fetchall()
+            cursor.close()
+        except (Exception, Error) as error:
+            print("Ошибка select PostgreSQL", error)
+
+    # where_key_value = "key=value, key=value ..."
+    def selectWhereList(self, table: str, where_key_value: str = "", key: list = "*"):
+        try:
+            cursor = self.connection.cursor()
+            if where_key_value != "":
+                cursor.execute("SELECT {2} FROM {0} WHERE {1};".format(table, where_key_value, ", ".join(map(str, key))))
                 return cursor.fetchall()
             else:
                 cursor.execute("SELECT {1} FROM {0};".format(table, ", ".join(map(str, key))))
